@@ -1,0 +1,10 @@
+<div class="heading">
+  <div class="servings">
+    <span class="servings-input">Makes<input type="number" class="servings-number" value="8">servings</span>
+    <input type="radio" class="us-units" value="US" checked="checked">US
+    <input type="radio" class="metric-units" value="Metric">Metric
+    <button class="adjust">Adjust Recipe</button>
+  </div>
+</div>
+{{ingredient-list ingredients=model}}
+{{outlet}}
